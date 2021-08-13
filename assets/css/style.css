@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root{
+  --light: #7a7b7c;
+  --dark: #303438;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', sans-serif;
+}
+
+body{
+  background: var(--bg);
+  color: var(--color-text);
+  width: 100%;
+  height: 100vh;
+}
+
+nav .navbar-brand{
+  font-size: 28px;
+}
+
+.navbar{
+  font-size: 20px;
+}
+
+.container h1{
+  padding-top: 15px;
+}
+
+@keyframes text-clip {
+  from {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.inner{
+  display: inline-block;
+  animation: container 3s 3s ease both,
+    text-clip 3s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+
+.perfil {
+  display: inline-block;
+  padding: 8px;
+  background: linear-gradient(130deg, var(--light), var(--dark));
+  margin: auto;
+  height: 180px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient{
+  25%{
+    background-position: left bottom;
+  }
+  50%{
+    background-position: right bottom;
+  }
+  75%{
+    background-position: right top;
+  }
+  100%{
+    background-position: left top;
+  }
+}
+
+.btn-group a {
+  padding: 5px;
+  color: var(--dark);
+}
+
+.link-icon-md {
+  padding: 15px;
+  font-size: 55px;
+  color: var(--dark);
+}
+.link-icon-md:hover {
+  color: var(--light);
+}
+
+.link-icon {
+  display: flexbox;
+  font-size: 25px;
+  padding: 15px;
+  color: var(--dark);
+}
+.link-icon:hover {
+  color: var(--light);
+}
+
+.links span{
+  background-color: var(--dark);
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fefbfb;
+}
+
+.links a{
+  font-size: 40px;
+}
+
+footer{
+  padding-top: 25px;
+}
+footer .float-right a{
+  font-size: 50px;
+  color: var(--dark);
+}
+footer .float-right a:hover {
+  color: var(--light);
+}
