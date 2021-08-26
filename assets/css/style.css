@@ -74,6 +74,16 @@ nav .navbar-brand{
   }
 }
 
+h1, .subtitle{
+  display: grid;
+  place-content: center;
+  padding: 15px;
+}
+
+.icon-exemple {
+  padding: 3px;
+}
+
 .btn-group a {
   padding: 5px;
   color: var(--dark);
