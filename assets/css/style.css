@@ -8,7 +8,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Indie Flower', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 body{
@@ -41,8 +41,8 @@ nav .navbar-brand{
 
 .inner{
   display: inline-block;
-  animation: container 3s 3s ease both,
-    text-clip 3s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+  animation: container 4s 4s ease both,
+    text-clip 4s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
 }
 
 
@@ -56,7 +56,7 @@ nav .navbar-brand{
   max-width: 100%;
   border-radius: 50%;
   background-size: 200% 200%;
-  animation: animated-gradient 2s linear infinite;
+  animation: animated-gradient 4s linear infinite;
 }
 
 @keyframes animated-gradient{
@@ -78,6 +78,10 @@ h1, .subtitle{
   display: grid;
   place-content: center;
   padding: 15px;
+}
+
+.card-text {
+  color: #b6b6b6;
 }
 
 .icon-exemple {
