@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Slabo+27px&display=swap');
 
 :root{
   --light: #7a7b7c;
@@ -8,7 +8,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Josefin Sans, sans-serif;
 }
 
 body{
@@ -77,17 +77,30 @@ h1, .subtitle{
   margin-bottom: 27px;
 }
 
-.card-text {
+.card-text{
   color: #b6b6b6;
 }
 
-.icon-exemple {
+.card-img-top{
+  height: 225px;
+  width: 100%;
+  display: block;
+}
+
+.icon-exemple{
   padding: 3px;
 }
 
-.btn-group a {
+.btn-group a{
   padding: 5px;
   color: var(--dark);
+}
+
+.container-about{
+  padding: 50px;
+  margin: 25px;
+  display: grid;
+  place-content: center;
 }
 
 .link-icon-md {
