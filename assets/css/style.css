@@ -26,10 +26,6 @@ nav .navbar-brand{
   font-size: 20px;
 }
 
-.container h1{
-  padding-top: 15px;
-}
-
 @keyframes text-clip {
   from {
     clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
@@ -78,6 +74,7 @@ h1, .subtitle{
   display: grid;
   place-content: center;
   padding: 15px;
+  margin-bottom: 27px;
 }
 
 .card-text {
