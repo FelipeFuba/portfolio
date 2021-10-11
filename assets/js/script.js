@@ -4,4 +4,5 @@ document.addEventListener('aos:in', ({ detail }) => {
   document.addEventListener('aos:out', ({ detail }) => {
     console.log('animated out', detail);
 });
+
   
