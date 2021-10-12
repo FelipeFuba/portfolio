@@ -79,7 +79,9 @@ h1, .subtitle{
   display: flex;
   justify-content: center;
 }
-
+.footer a {
+  padding: 10px;
+}
 footer{
   padding-bottom: 43px;
 }
