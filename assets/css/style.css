@@ -56,9 +56,10 @@ h1, .subtitle{
 }
 
 .link-icon-md {
-  padding: 15px;
+  padding: 10px;
   font-size: 55px;
   color: var(--dark);
+  align-items: center;
 }
 .link-icon-md:hover {
   color: var(--light-color);
@@ -75,6 +76,38 @@ h1, .subtitle{
   color: var(--light-color);
 }
 
+#boxes .windows {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 200px;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  justify-content: center;
+}
+#boxes #dialog {
+  background-color: #fefefe;
+  margin: 15% auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  width: 50%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 .footer {
   display: flex;
   justify-content: center;
