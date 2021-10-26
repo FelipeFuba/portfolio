@@ -34,3 +34,8 @@ $('.windows .close').click(function(e) {
     $('.windows').hide();
   });
 });
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+};
