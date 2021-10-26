@@ -5,6 +5,7 @@
   --dark-mode: #1e2124;
   --light-color: #c2c2c2;
   --bg: #e2e2e2;
+  --dialog: #adadad;
   --text-color: #595d61;
 }
 
@@ -103,7 +104,7 @@ h1, .subtitle{
   justify-content: center;
 }
 #boxes #dialog {
-  background-color: var(--text-color);
+  background-color: var(--dialog);
   margin: 15% auto;
   margin-top: 20px;
   padding: 20px;
