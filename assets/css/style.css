@@ -2,6 +2,7 @@
 
 :root{
   --dark: #303438;
+  --dark-mode: #1e2124;
   --light-color: #c2c2c2;
   --bg: #e2e2e2;
   --text-color: #595d61;
@@ -25,6 +26,16 @@ body::-webkit-scrollbar {
   width: 0;
 }
 
+.dark-mode {
+  background-color: var(--dark-mode);
+  color: white;
+}
+
+#btn {
+  color: var(--text-color);
+  padding: 10px;
+  margin: 10px;
+}
 
 section {
   width: 100%;
