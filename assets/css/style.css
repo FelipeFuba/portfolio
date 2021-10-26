@@ -44,8 +44,14 @@ section {
   height: auto;
 }
 
+section p {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
-  padding-top: 25px;
+  padding: 25px;
+  margin-top: 70px;
 }
 
 .perfil {
