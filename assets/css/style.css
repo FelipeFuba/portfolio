@@ -103,12 +103,15 @@ h1, .subtitle{
   justify-content: center;
 }
 #boxes #dialog {
-  background-color: #fefefe;
+  background-color: var(--text-color);
   margin: 15% auto;
   margin-top: 20px;
   padding: 20px;
   border-radius: 20px;
   width: 50%;
+}
+#dialog::-webkit-scrollbar {
+  width: 0;
 }
 .close {
   color: #aaa;
