@@ -38,8 +38,10 @@ body::-webkit-scrollbar {
 }
 
 section {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
 }
 
 .container {
